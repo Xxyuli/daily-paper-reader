@@ -25,3 +25,19 @@ subscriptions:
     stage: A
     diff_threshold_pct: 15
   keyword_recall_mode: or
+  intent_profiles:
+    - tag: VLA
+      description: 关于 vision-language-action (VLA) 的相关论文查找
+      enabled: true
+      keywords:
+        - keyword: vision-language-action
+          keyword_cn: 视觉-语言-动作
+          query: vision-language-action models for robotics
+        - keyword: vision language action
+          keyword_cn: ''
+          query: v
+        - keyword: vla
+          keyword_cn: ''
+          query: v
+      intent_queries: []
+      updated_at: '2026-03-12T02:15:36.501Z'
